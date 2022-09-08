@@ -1,25 +1,39 @@
 <html>
 
 <head>
-    <title> Imersão Dev Alura </title>
-    <link rel="icon" type="image/png" href="images/coração.jpg"/>
+    <title> Imersão Dev | Calculadora </title>
+    <link rel="icon" type="image/png" href="images/calculadora.png"/>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="./js/calculadora.js"></script>
 </head>
 
 <body>
+    
     <div class="container">
         <img class="img-direita" src="images/imersao-dev.svg" alt="">
-        <h1 class="page-title">
-            Calculadora de média</h1>
-        <p class="page-subtitle">
-            Descubra qual a sua média de nota de todas as provas!
-        </p>
-        <p class="texto-imersaodev">
-            IMERSÃO DEV_ <a class="aula-nome" >VARIÁVEIS, OPERAÇÕES E MÉDIA</a></p>
+    </div>
 
-            <a class="aula" href="./index.html">Voltar para a home</a>
-        
+    <div class="container">
+    <p class="texto-imersaodev">
+        IMERSÃO DEV_ <a class="aula-nome" >VARIÁVEIS, OPERAÇÕES E MÉDIA</a></p> 
+    </div>
+
+    <div class="container-calculadora">
+        <h1 class="page-title">
+            Conversor de moedas
+          </h1>
+          <p class="page-subtitle">
+            Descubra os valores em dolar U$
+          </p>
+          <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+          <label for="moeda">Insira o valor</label><br>
+          <input type="number" id="valor" size="2" /><br>
+          <button type="submit" onclick="Converter()">Converter</button>
+          <h2 id="valorConvertido"></h2>
+    </div>
+
+    <div class="container">
+        <a class="aula" href="./index.html">Voltar para home</a>
     </div>
 
     <a href="https://alura.com.br/" target="_blank">
