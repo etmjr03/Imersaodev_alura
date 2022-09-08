@@ -8,7 +8,8 @@
 body {
   width: 100%;
     font-family: 'Roboto Mono', monospace;
-    background-image: url("https://thumbs.gfycat.com/AliveTerrificGeese-small.gif");
+    /* background-image: url("https://thumbs.gfycat.com/AliveTerrificGeese-small.gif"); */
+    background-color: #1a1c1f;
     background-size: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,6 +192,48 @@ body {
   font-size: 20px;
 }
 
+.botao-moderno {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  color: #b102b7;
+  border: 8px solid #008bfd;
+  padding: 16px 64px;
+  border-radius: 30px;
+  text-shadow: 0 0 8px #008bfd, 0 0 29px #b102b7;
+  box-shadow: inset 0 0 32px #008bfd;
+  cursor: pointer;
+}
+
+.botao-moderno::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #b102b7;
+  top: 45%;
+  left: 40%;
+  transform: perspective(35px) rotateX(5deg);
+  filter: blur(20px);
+  opacity: 0.5;
+}
+
+.botao-moderno:hover {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 40px;
+  color: #fff;
+  border: 8px solid #fff;
+  padding: 16px 64px;
+  border-radius: 30px;
+  text-shadow: 0 0 8px #fff, 0 0 19px #b102b7;
+  box-shadow: inset 0 0 10px #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
 @keyframes spin {
     100% {
