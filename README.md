@@ -1,6 +1,8 @@
 # Imersão dev_ Alura
 Imersão Dev_ da Alura, com 10 dias de conteúdos e vídeos sob demanda.
 
+Este projeto está sendo desenvolvido durante o período do projeto imersão da Alura, serão desenvolvidos diversos projetos durante o evento.
+
 <h4 align="left">Tecnologias usadas durando a imersão dev_ Alura</h4>
 
 ###
