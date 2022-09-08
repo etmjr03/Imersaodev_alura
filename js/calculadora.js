@@ -7,7 +7,7 @@ function Converter(){
     var valorEmDolar = valorEmRealFloat * 5.25
 
     var conversaoValor = document.getElementById("valorConvertido")
-    var valorConvertido = "O resultado em real é R$" + valorEmDolar
+    var valorConvertido = "O valor em real é R$" + valorEmDolar
 
     conversaoValor.innerHTML = valorConvertido
 

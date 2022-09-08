@@ -6,12 +6,13 @@
 }
 
 body {
-    font-family: 'Roboto Mono',monospace;
-    min-height: 400px;
-    background-color: #00162c;
-    background-size: 80vh;
-    background-position: center bottom;
+  width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url("https://thumbs.gfycat.com/AliveTerrificGeese-small.gif");
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     padding-left: 200px !important;
     padding-right: 200px !important;
   }
@@ -183,6 +184,13 @@ body {
   display: grid;
   place-items: center;
 }
+
+.valor-convertido {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
 
 @keyframes spin {
     100% {

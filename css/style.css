@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+}
+
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-color: #00162c;
+    background-size: 80vh;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container-center {
+    color: #fff;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-calculadora {
+    text-align: center;
+    padding: 40;
+  }
+
+  .center {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-title {
+    color:#ffffff;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding-right: 200px;
+  }
+
+  .texto-imersaodev {
+    float: left;
+    color: #3c86f9;
+    padding: 30px 95px;
+    position: absolute;
+  }
+
+  .img-direita {
+    width: 150px;
+    float: left;
+  }
+
+  .aula-nome {
+    text-align: start;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.aula {
+  display: inline;
+  margin: 10px;
+  text-align: start;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.efeito-rgb {
+    height: 250px;
+    width: 250px;
+    border: 1px solid #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #0a66c2;
+    overflow: hidden;
+}
+
+.efeito-rgb::before {
+    content: "";
+    height: 150%;
+    width: 150%;
+    position: absolute;
+    background: conic-gradient(
+      #fd004c,
+      #fe9000,
+      #fff020,
+      #3edf4b,
+      #3363ff,
+      #b102b7,
+      #fd004c
+      );
+      left: -25%;
+      top: -25%;
+      animation: spin 1.5s infinite linear;
+}
+
+.efeito-rgb::after {
+    content: "Meu Github :)";
+    position: absolute;
+    background-color: #1c1b29;
+    height: 93%;
+    width: 93%;
+    top: 3.5%;
+    left: 3.5%;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.efeito-rgb2 {
+  margin: 15px;
+  height: 250px;
+  width: 250px;
+  border: 1px solid #fff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #0a66c2;
+  overflow: hidden;
+}
+
+.efeito-rgb2::before {
+  content: "";
+  height: 150%;
+  width: 150%;
+  position: absolute;
+  background: conic-gradient(
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7,
+    #fd004c
+    );
+    left: -25%;
+    top: -25%;
+    animation: spin 1.5s infinite linear;
+}
+
+.efeito-rgb2::after {
+  content: "Meu linkedin :)";
+  position: absolute;
+  background-color: #1a1c1f;
+  height: 93%;
+  width: 93%;
+  top: 3.5%;
+  left: 3.5%;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.valor-convertido {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+
+@keyframes spin {
+    100% {
+      transform: rotate(-360deg);
+    }
+}
