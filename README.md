@@ -22,3 +22,13 @@ Aula 01:
 - HTML, CSS e JS e seus conceitos básicos.
 
 Aula 02:
+
+- Introdução a variáveis
+- Criando funções
+- Manipulando HTML com JS
+
+Aula 03:
+
+- Criando funções e variáveis
+- Manipulando HTML com JS
+- Condições if, else if e else
