@@ -5,6 +5,8 @@ Este projeto está sendo desenvolvido durante o período do projeto imersão da 
 
 <h4 align="left">Tecnologias usadas durando a imersão dev_ Alura</h4>
 
+<p>JavaScript, HTML, CSS e Bootstrap</p>
+
 ###
 
 <div align="left">
@@ -33,3 +35,5 @@ Aula 03:
 - Criando funções e variáveis
 - Manipulando HTML com JS
 - Condições if, else if e else
+
+Aula 04:
