@@ -39,3 +39,4 @@ Aula 03:
 Aula 04:
 
 - Array com js
+- Criando elementos HTML no js
